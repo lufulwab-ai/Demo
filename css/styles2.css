@@ -479,3 +479,11 @@ body {
 .how-i-work {
   width: 100%;
 }
+.navigation-header-page-home,
+.navigation-header-page-about,
+.navigation-header-page-contact {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
