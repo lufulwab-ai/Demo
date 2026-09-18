@@ -1,0 +1,83 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  /* Fonts */
+  --display-hero-font-family: Montserrat-Bold, sans-serif;
+  --display-hero-font-size: 60px;
+  --display-hero-line-height: 68px;
+  --display-hero-font-weight: 700;
+  --display-hero-font-style: normal;
+  --heading-h1-font-family: Montserrat-Bold, sans-serif;
+  --heading-h1-font-size: 48px;
+  --heading-h1-line-height: 58px;
+  --heading-h1-font-weight: 700;
+  --heading-h1-font-style: normal;
+  --heading-h2-font-family: Montserrat-Bold, sans-serif;
+  --heading-h2-font-size: 36px;
+  --heading-h2-line-height: 46px;
+  --heading-h2-font-weight: 700;
+  --heading-h2-font-style: normal;
+  --heading-h3-font-family: Montserrat-SemiBold, sans-serif;
+  --heading-h3-font-size: 24px;
+  --heading-h3-line-height: 32px;
+  --heading-h3-font-weight: 600;
+  --heading-h3-font-style: normal;
+  --body-large-font-family: Montserrat-Regular, sans-serif;
+  --body-large-font-size: 20px;
+  --body-large-line-height: 32px;
+  --body-large-font-weight: 400;
+  --body-large-font-style: normal;
+  --body-default-font-family: Montserrat-Regular, sans-serif;
+  --body-default-font-size: 16px;
+  --body-default-line-height: 26px;
+  --body-default-font-weight: 400;
+  --body-default-font-style: normal;
+  --label-large-font-family: Montserrat-SemiBold, sans-serif;
+  --label-large-font-size: 16px;
+  --label-large-line-height: 24px;
+  --label-large-font-weight: 600;
+  --label-large-font-style: normal;
+  --label-small-font-family: Montserrat-Medium, sans-serif;
+  --label-small-font-size: 14px;
+  --label-small-line-height: 20px;
+  --label-small-font-weight: 500;
+  --label-small-font-style: normal;
+
+  /* Effects */
+  --shadow-soft-box-shadow: 0px 8px 24px -8px rgba(0, 0, 0, 0.18);
+  --shadow-floating-box-shadow: 0px 16px 40px -12px rgba(0, 0, 0, 0.28),
+    0px 8px 24px -8px rgba(168, 255, 53, 0.12);
+}
+/* Figma Color Variables of your File */
+:root,
+[data-website-tokens-mode="default"] {
+  /* default */
+  --primitive-navy-950: #07111f;
+  --primitive-navy-900: #0b172a;
+  --primitive-navy-800: #142743;
+  --primitive-slate-700: #344054;
+  --primitive-slate-500: #667085;
+  --primitive-slate-300: #cbd5e1;
+  --primitive-slate-100: #f1f5f9;
+  --primitive-white-1000: #ffffff;
+  --primitive-lime-400: #a8ff35;
+  --primitive-lime-500: #90e51f;
+  --primitive-blue-400: #5b8cff;
+  --primitive-teal-400: #37d4c2;
+  --color-bg-canvas: var(--primitive-navy-950);
+  --color-bg-surface: var(--primitive-navy-900);
+  --color-bg-elevated: var(--primitive-navy-800);
+  --color-bg-light: var(--primitive-white-1000);
+  --color-bg-soft: var(--primitive-slate-100);
+  --color-text-on-dark: var(--primitive-white-1000);
+  --color-text-secondary: var(--primitive-slate-300);
+  --color-text-dark: var(--primitive-navy-950);
+  --color-text-muted: var(--primitive-slate-500);
+  --color-action-primary: var(--primitive-lime-400);
+  --color-action-primary-hover: var(--primitive-lime-500);
+  --color-action-on-primary: var(--primitive-navy-950);
+  --color-border-subtle: var(--primitive-navy-800);
+  --color-border-light: var(--primitive-slate-300);
+  --color-accent-info: var(--primitive-blue-400);
+  --color-accent-teal: var(--primitive-teal-400);
+}
