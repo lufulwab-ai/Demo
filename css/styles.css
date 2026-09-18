@@ -981,3 +981,19 @@ body {
     width: 100%;
   }
 }
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.home-desktop,
+.navigation-header-page-home,
+.hero,
+.selected-work,
+.capabilities,
+.contact-cta {
+  width: 100%;
+}

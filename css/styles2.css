@@ -465,3 +465,17 @@ body {
     width: 100%;
   }
 }
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.about-desktop,
+.navigation-header-page-about,
+.about-intro,
+.how-i-work {
+  width: 100%;
+}
